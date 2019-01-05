@@ -7884,9 +7884,5 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /*# sourceMappingURL=bootstrap.css.map */
-h1 {
-  text-align: center;
-  color: white; }
-
-body {
-  background: blue; }
+h3 {
+  font-family: Montserrat; }
