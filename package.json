@@ -1,0 +1,23 @@
+{
+  "name": "build-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss build/css/style.min.css",
+    "build-js": "browserify js/hello.js > build/js/script.min.js",
+    "build": "npm run build-css && npm run build-js",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

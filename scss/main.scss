@@ -1,0 +1,10 @@
+// vendors
+@import 'vendor/_reset.scss';
+@import 'vendor/_bootstrap.scss';
+
+// component
+@import '_headline.scss';
+
+body {
+    background: blue;
+}
