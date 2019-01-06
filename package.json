@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss scss/main.scss build/css/style.min.css",
-    "build-js": "browserify js/hello.js > build/js/script.min.js",
+    "build-css": "node-sass --include-path scss scss/main.scss docs/css/style.min.css",
+    "build-js": "browserify js/hello.js > docs/js/script.min.js",
     "build": "npm run build-css && npm run build-js",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
