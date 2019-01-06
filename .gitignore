@@ -3,4 +3,4 @@ js
 scss
 package.json
 package-lock.json
-dist
+build
